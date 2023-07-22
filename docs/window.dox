@@ -240,7 +240,7 @@ focus when @ref glfwShowWindow is called. Possible values are `GLFW_TRUE` and
 `GLFW_FALSE`.
 
 @anchor GLFW_SCALE_TO_MONITOR
-__GLFW_SCALE_TO_MONITOR__ specifies whether the window content area should be
+__GLFW_SCALE_TO_MONITOR__ specified whether the window content area should be
 resized based on the [monitor content scale](@ref monitor_scale) of any monitor
 it is placed on.  This includes the initial placement when the window is
 created.  Possible values are `GLFW_TRUE` and `GLFW_FALSE`.
@@ -248,11 +248,6 @@ created.  Possible values are `GLFW_TRUE` and `GLFW_FALSE`.
 This hint only has an effect on platforms where screen coordinates and pixels
 always map 1:1 such as Windows and X11.  On platforms like macOS the resolution
 of the framebuffer is changed independently of the window size.
-
-@anchor GLFW_DARK_BAR
-__GLFW_DARK_BAR__ specifies whether the window should use dark theme or not.
-Possible values are `GLFW_TRUE` and `GLFW_FALSE`. This hint only has effect
-on windows operating system.
 
 @anchor GLFW_MOUSE_PASSTHROUGH_hint
 __GLFW_MOUSE_PASSTHROUGH__ specifies whether the window is transparent to mouse

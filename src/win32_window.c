@@ -1344,8 +1344,6 @@ static int createNativeWindow(_GLFWwindow* window,
                                            _glfw.win32.instance,
                                            (LPVOID) wndconfig);
 
-    _glfwSetWindowTheme(wndconfig->darkTheme, window->win32.handle);
-
     _glfw_free(wideTitle);
 
     if (!window->win32.handle)
